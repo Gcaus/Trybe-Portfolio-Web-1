@@ -21,4 +21,5 @@
   <li>Partes do seu portfólio destacadas com negrito e/ou itálico;</li>
   <p></p>
   <li>Um índice com links internos para as diferentes seções do seu portfólio.</li>
-/ul>
+  
+</ul>
