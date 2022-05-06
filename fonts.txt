@@ -1,0 +1,2 @@
+font-family: 'Sarala', sans-serif;
+font-family: 'Righteous', cursive;

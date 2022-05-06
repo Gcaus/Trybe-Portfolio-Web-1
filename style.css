@@ -1,0 +1,175 @@
+/*=============== GERAL ===============================*/
+
+* {
+  box-sizing: border-box;
+
+  --cor-primaria: #fff2e7;
+  --cor-secundaria: #ecd6c4;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  width: 37.5rem;
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(68.15deg, #35282b 16.62%, #8e5d52 85.61%);
+}
+
+/*=============== NAV ===============================*/
+
+.cabecalho-nav-lista {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 2.5rem;
+}
+
+.itens {
+  font-family: 'Sarala', sans-serif;
+  color: var(--cor-secundaria);
+
+  text-decoration: none;
+  font-size: 1.3rem;
+
+  font-weight: 700;
+}
+
+/*=============== HOME ===============================*/
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  gap: 2.5rem;
+}
+
+#nome {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+
+  color: var(--cor-primaria);
+}
+
+/*=============== SOBRE ===============================*/
+
+#sobre {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+#sobre h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+
+  color: var(--cor-secundaria);
+
+  text-align: center;
+}
+
+#sobre span {
+  font-weight: 700;
+}
+
+#sobre p {
+  font-family: 'Sarala', sans-serif;
+  font-size: 1.5rem;
+
+  color: var(--cor-primaria);
+}
+
+/*=============== HABILIDADES ===============================*/
+
+#habilidades {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+#habilidades h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+
+  color: var(--cor-secundaria);
+
+  text-align: center;
+}
+
+#habilidades h4 {
+  font-family: 'Sarala', sans-serif;
+  font-size: 1.5rem;
+
+  color: var(--cor-primaria);
+}
+
+#habilidades ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 0.5rem;
+}
+
+#habilidades ul li {
+  font-family: 'Sarala', sans-serif;
+  font-size: 1.5rem;
+
+  color: var(--cor-primaria);
+}
+
+/*=============== SITES ===============================*/
+
+#sites {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+#sites h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+
+  color: var(--cor-secundaria);
+
+  text-align: center;
+}
+
+#sites ul {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+#sites ul a {
+  text-decoration: none;
+
+  color: var(--cor-secundaria);
+  font-family: 'Sarala', sans-serif;
+  font-size: 1.5rem;
+}

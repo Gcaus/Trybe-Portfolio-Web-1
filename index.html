@@ -10,27 +10,61 @@
       href="https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Gabriel Nery Caus</title>
   </head>
   <body>
-    <a href="#"><img src="#" alt="" /></a>
-    <header class="cabecalho">
+    <header class="wrapper">
       <nav class="cabecalho-nav">
         <ul class="cabecalho-nav-lista">
-          <a href=""><li class="cabecalho-nav-lista-item">Início</li></a>
-          <a href=""><li class="cabecalho-nav-lista-item">Sobre</li></a>
-          <a href=""><li class="cabecalho-nav-lista-item">Habilidades</li></a>
-          <a href=""><li class="cabecalho-nav-lista-item">Gostos</li></a>
+          <a class="itens" href=#nome"><li>Início</li></a>
+          <a class="itens" href="#sobre"><li>Sobre</li></a>
+          <a class="itens" href="#habilidades"><li>Habilidades</li></a>
+          <a class="itens" href="#sites"><li>Sites</li></a>
         </ul>
       </nav>
     </header>
-
-    <section class="home">
-      <h1>Gabriel Nery Caus</h1>
-    </section>
     
+    <div class="wrapper" id="home">
+      <h1 id="nome">Gabriel Nery Caus</h1>
+      <img width="250px" src="./assets/foto.png" alt="Homem com camisa cinza">
+    </div>
+
+    <div class="wrapper" id="sobre">
+      <h3>Sobre mim</h3>
+      <p>Nascido em <span>13 de setembro de 1999</span>, em <span>Vila Velha - ES</span></p>
+      <p>Sempre fui e ainda sou apaixonado por tecnologia !! Sempre que possível estou estudando algo novo ou pesquisando tecnologias novas !!</p>
+    </div>
+
+    <div class="wrapper" id="habilidades">
+      <h3>Habilidades</h3>
+      <h4>Algumas habilidades que tenho:</h4>
+      <ul>
+        <li>- HTML5</li>
+        <li>- CSS3</li>
+        <li>- JavaScript</li>
+        <li>- Arduino(Automação residencial)</li>
+      </ul>
+    </div>
+
+    <div class="wrapper" id="sites">
+      <h3>Sites</h3>
+      <ul>
+        <a target="_blank" href="https://arstechnica.com/gadgets/"><li>- Ars Technica</li></a>
+        
+        <a target="_blank" href="https://techcrunch.com/"><li>- TechCrunch</li></a>
+        
+        <a target="_blank" href="https://canaltech.com.br/"><li>- Canal Tech</li></a>
+
+        <a target="_blank" href="https://futurism.com/"><li>- Futurism</li></a>
+
+      </ul>
+    </div>
 
   </body>
 </html>
